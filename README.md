@@ -1,2 +1,23 @@
 # automat-intervju-typescript
+
 Utgangspunkt for intervju oppgave til utviklerstilling i Team Automat i Entur
+Oppgaven skal løses med Node.js og Typescript.
+Dette repoet inneholder grunnleggende oppsett for å komme i gang med oppgaven;
+selve oppgaven vil bli gitt under intervjuet.
+Utover Node og Typescript vil du få forklart andre verktøy som brukes.
+
+## Oppsett
+
+Du må ha Node installert, versjonen nevnt i `.tool-versions`.
+
+1. Klon repoet
+2. Installer avhengigheter med `npm install`
+
+## Utvikling
+
+Det er satt opp npm script for de viktigste oppgavene.
+
+- `npm run build` - Bygger applikasjonen med tsc
+- `npm run start` - Starter applikasjonen med npx
+- `npm run test` - Kjører testene med [jest](https://jestjs.io)
+- `npm run lint` - Sjekker koden med [biome](https://biomejs.org/)

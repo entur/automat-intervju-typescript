@@ -1,0 +1,31 @@
+{
+  "name": "automat-intervju-typescript",
+  "version": "1.0.0",
+  "description": "Utgangspunkt for intervju oppgave til utviklerstilling i Team Automat i Entur",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "tsx src/index.ts",
+    "test": "npx jest --watchAll",
+    "lint": "npx @biomejs/biome check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entur/automat-intervju-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entur/automat-intervju-typescript/issues"
+  },
+  "homepage": "https://github.com/entur/automat-intervju-typescript#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
