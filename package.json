@@ -4,10 +4,10 @@
   "description": "Utgangspunkt for intervju oppgave til utviklerstilling i Team Automat i Entur",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "tsc",
     "start": "tsx src/index.ts",
-    "test": "npx jest --watchAll",
-    "lint": "npx @biomejs/biome check"
+    "test": "jest --watchAll",
+    "lint": "biome check"
   },
   "repository": {
     "type": "git",
